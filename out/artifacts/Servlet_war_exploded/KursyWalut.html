@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+</HEAD>
+<TITLE>Zadanie Kursy Waluto</TITLE>
+<H1 ALIGN="CENTER">Kursy Walut HTTP POST</H1>
+<FORM ACTION="http://localhost:8080/kursywalut"
+      METHOD="POST">
+    Kwota do przeliczenia:
+    <INPUT TYPE="TEXT" NAME="wartosc1"><BR>
+
+    <input type="radio" name="from_operation" value="frompln"> PLN <br>
+    <input type="radio" name="from_operation" value="fromusd"> USD <br>
+    <input type="radio" name="from_operation" value="fromeur"> EUR <br>
+    <br>
+    Waluta docelowa
+    <br>
+    <input type="radio" name="into_operation" value="intopln"> PLN <br>
+    <input type="radio" name="into_operation" value="intousd"> USD<br>
+    <input type="radio" name="into_operation" value="intoeur"> EUR <br>
+
+
+    <INPUT TYPE="SUBMIT" VALUE="Wykonaj">
+
+</FORM>
+</HTML>
